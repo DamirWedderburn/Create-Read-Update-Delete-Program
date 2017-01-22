@@ -75,9 +75,9 @@
             this.addressDataGridViewTextBoxColumn,
             this.imageDataGridViewImageColumn});
             this.dataGridView.DataSource = this.employeesBindingSource;
-            this.dataGridView.Location = new System.Drawing.Point(12, 394);
+            this.dataGridView.Location = new System.Drawing.Point(12, 215);
             this.dataGridView.Name = "dataGridView";
-            this.dataGridView.Size = new System.Drawing.Size(347, 179);
+            this.dataGridView.Size = new System.Drawing.Size(771, 179);
             this.dataGridView.TabIndex = 1;
             this.dataGridView.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView_KeyDown);
             // 
@@ -96,12 +96,12 @@
             this.panel.Enabled = false;
             this.panel.Location = new System.Drawing.Point(12, 12);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(347, 340);
+            this.panel.Size = new System.Drawing.Size(771, 171);
             this.panel.TabIndex = 0;
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Location = new System.Drawing.Point(131, 141);
+            this.btnBrowse.Location = new System.Drawing.Point(14, 142);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(75, 23);
             this.btnBrowse.TabIndex = 5;
@@ -113,9 +113,9 @@
             // 
             this.pictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox.DataBindings.Add(new System.Windows.Forms.Binding("Image", this.employeesBindingSource, "Image", true));
-            this.pictureBox.Location = new System.Drawing.Point(112, 3);
+            this.pictureBox.Location = new System.Drawing.Point(4, 4);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(109, 132);
+            this.pictureBox.Size = new System.Drawing.Size(100, 132);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox.TabIndex = 4;
             this.pictureBox.TabStop = false;
@@ -123,16 +123,16 @@
             // txtAddress
             // 
             this.txtAddress.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeesBindingSource, "Address", true));
-            this.txtAddress.Location = new System.Drawing.Point(84, 287);
+            this.txtAddress.Location = new System.Drawing.Point(190, 106);
             this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(260, 47);
+            this.txtAddress.Size = new System.Drawing.Size(561, 47);
             this.txtAddress.TabIndex = 3;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(4, 290);
+            this.label4.Location = new System.Drawing.Point(110, 109);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 13);
             this.label4.TabIndex = 2;
@@ -141,15 +141,15 @@
             // txtEmail
             // 
             this.txtEmail.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeesBindingSource, "Email", true));
-            this.txtEmail.Location = new System.Drawing.Point(84, 255);
+            this.txtEmail.Location = new System.Drawing.Point(190, 74);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(260, 20);
+            this.txtEmail.Size = new System.Drawing.Size(561, 20);
             this.txtEmail.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(4, 262);
+            this.label3.Location = new System.Drawing.Point(110, 81);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 2;
@@ -158,15 +158,15 @@
             // txtPhoneNumber
             // 
             this.txtPhoneNumber.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeesBindingSource, "PhoneNumber", true));
-            this.txtPhoneNumber.Location = new System.Drawing.Point(84, 223);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(190, 42);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
-            this.txtPhoneNumber.Size = new System.Drawing.Size(257, 20);
+            this.txtPhoneNumber.Size = new System.Drawing.Size(231, 20);
             this.txtPhoneNumber.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 230);
+            this.label2.Location = new System.Drawing.Point(110, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 13);
             this.label2.TabIndex = 2;
@@ -175,15 +175,15 @@
             // txtFullName
             // 
             this.txtFullName.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeesBindingSource, "FullName", true));
-            this.txtFullName.Location = new System.Drawing.Point(84, 194);
+            this.txtFullName.Location = new System.Drawing.Point(190, 13);
             this.txtFullName.Name = "txtFullName";
-            this.txtFullName.Size = new System.Drawing.Size(257, 20);
+            this.txtFullName.Size = new System.Drawing.Size(231, 20);
             this.txtFullName.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 201);
+            this.label1.Location = new System.Drawing.Point(110, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 2;
@@ -191,7 +191,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(274, 579);
+            this.btnSave.Location = new System.Drawing.Point(688, 400);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 5;
@@ -201,16 +201,16 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(96, 358);
+            this.txtSearch.Location = new System.Drawing.Point(106, 189);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(263, 20);
+            this.txtSearch.Size = new System.Drawing.Size(677, 20);
             this.txtSearch.TabIndex = 1;
             this.txtSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSearch_KeyPress);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 365);
+            this.label5.Location = new System.Drawing.Point(32, 196);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 13);
             this.label5.TabIndex = 2;
@@ -218,7 +218,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(193, 579);
+            this.btnCancel.Location = new System.Drawing.Point(607, 400);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 4;
@@ -228,7 +228,7 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(112, 579);
+            this.btnEdit.Location = new System.Drawing.Point(526, 400);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(75, 23);
             this.btnEdit.TabIndex = 3;
@@ -238,7 +238,7 @@
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(31, 579);
+            this.btnNew.Location = new System.Drawing.Point(445, 400);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(75, 23);
             this.btnNew.TabIndex = 2;
@@ -303,7 +303,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(365, 610);
+            this.ClientSize = new System.Drawing.Size(795, 435);
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnCancel);
